@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600;1,700&display=swap");
+body {
+  box-sizing: border-box;
+  margin: 0 auto;
+  font-family: "League Spartan", sans-serif;
+  font-size: 16px;
+  background-color: hsl(222, 26%, 31%);
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+.calculator {
+  max-width: 22rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: auto;
+  grid-gap: 1rem;
+  width: 100%;
+  margin-top: 10%;
+}
+.heading {
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: white;
+  padding-left: 4px;
+}
+
+.calculator input {
+  background: hsl(224, 36%, 15%);
+  border: none;
+  width: 100%;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: right;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+}
+
+.calculator-buttons {
+  display: grid;
+  background: hsl(223, 31%, 20%);
+  border-radius: 8px;
+  padding: 20px;
+  display: grid;
+  grid-gap: 18px;
+  grid-template-columns: repeat(4, auto);
+  align-items: stretch;
+  justify-items: stretch;
+}
+
+.calc-button {
+  background-color: white;
+  color: hsl(221, 14%, 31%);
+  font-size: 32px;
+  font-weight: 700;
+  width: 4rem;
+  height: 2.5rem;
+  border: none;
+  border-radius: 5px;
+  justify-self: center;
+}
+.reset {
+  background: hsl(225, 21%, 49%);
+  color: white;
+  font-size: 1rem;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  width: 100%;
+}
+
+.equal {
+  background: hsl(6, 63%, 50%);
+  color: white;
+  grid-column-start: 3;
+  grid-column-end: 5;
+  width: 100%;
+}
+
+.del {
+  background: hsl(224, 28%, 35%);
+  color: white;
+  font-size: 1rem;
+}
